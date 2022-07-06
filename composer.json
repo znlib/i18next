@@ -1,0 +1,24 @@
+{
+  "name": "znlib/i18next",
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zn Developer",
+      "email": "zndev@ya.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    
+  },
+  "bin": [
+    "bin/zn"
+  ],
+  "autoload": {
+    "psr-4": {
+      "ZnLib\\I18Next\\": "src",
+      "ZnLib\\I18Next\\Tests\\": "tests"
+    }
+  }
+}
