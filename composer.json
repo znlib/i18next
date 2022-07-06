@@ -12,9 +12,6 @@
   "require": {
     
   },
-  "bin": [
-    "bin/zn"
-  ],
   "autoload": {
     "psr-4": {
       "ZnLib\\I18Next\\": "src",
