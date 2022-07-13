@@ -20,10 +20,10 @@ class TranslationService implements TranslationServiceInterface
     private $defaultLanguage;
     private $fallbackLanguage = 'en';
 
-    public function getBundles(): array
+    /*public function getBundles(): array
     {
         return $this->bundles;
-    }
+    }*/
 
     public function setBundles(array $bundles): void
     {

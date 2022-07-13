@@ -5,9 +5,6 @@ namespace ZnLib\I18Next\Interfaces\Services;
 interface TranslationServiceInterface
 {
 
-
-    public function getBundles(): array;
-
     public function setBundles(array $bundles): void;
 
     public function addBundle(string $bundleName, $loaderDefinition);
